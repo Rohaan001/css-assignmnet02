@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.589);
+    /* display: flex; */
+    width: 200%;
+    height: 50px;
+    padding-bottom: 10px;
+}
+.navbar ul {
+    display: flex;
+    padding: 10px 20px; 
+}
+.navbar ul a {
+    padding: 10px;
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+
+}    
+.navbar ul a:hover{
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+    transition: .3s ease-in-out;
+}
+s
+.body{
+    background-color: rgba(128, 128, 128, 0.336);
+    height: 100vh;
+    width: 100%;
+}
+.body h1{
+    font-size: 50px;
+    
+}
+.body p{
+    font-size: 20px;
+    padding: 10px;
+}
